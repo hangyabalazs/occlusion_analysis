@@ -1,4 +1,4 @@
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-sa]
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
