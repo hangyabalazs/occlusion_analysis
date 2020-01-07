@@ -24,12 +24,12 @@ This repository contains MATLAB code for analysing Cerebral Blood Flow data.
 
 Move the .m files on your MATLAB path. No further installation is needed.
 
-## System requirements
-Windows 10 64bits
-Any Intel or AMD x86-64 processor
-8 GB RAM
-MatlabR2016a or higher
-MATLAB Curve Fitting Toolbox
+## System requirements  
+Windows 10 64bits  
+Any Intel or AMD x86-64 processor  
+8 GB RAM  
+MatlabR2016a or higher  
+MATLAB Curve Fitting Toolbox  
 
 Please contact us with any questions, bug reports, and general feedback:
 
