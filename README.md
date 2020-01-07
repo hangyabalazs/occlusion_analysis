@@ -8,26 +8,24 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-Occlusion analysis software
+# Occlusion analysis software
 
-Description
+## Description
 
 This repository contains MATLAB code for analysing Cerebral Blood Flow data.
 
-Content
+## Content
 - .m files for data analysis
 - documentation
 - example data
 - license file
 
-Installation
+## Installation
 
 Move the .m files on your MATLAB path. No further installation is needed.
 
 Please contact us with any questions, bug reports, and general feedback:
 
-Diana Balazsfi and Balazs Hangya
-
-balazsfi.diana@koki.mta.hu
-
+**Diana Balazsfi and Balazs Hangya**  
+balazsfi.diana@koki.mta.hu  
 hangya.balazs@koki.mta.hu
