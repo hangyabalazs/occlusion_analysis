@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>bloodflow_analysis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+body {
+  background-color: white;
+  margin:1px;
+}
+h1 {
+  color: #990000; 
+  font-size: 30;
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #990000;
+  font-size: 20;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+pre.codeinput {
+  margin-left: 30px;
+}
+bld {
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000001">
+<h1 align="left">bloodflow_analysis</h1>
+<align="left">Statistical analysis of cerebral blood flow.
+<h2>Description</h2>
+<p><tt>bloodflow_analysis</tt> performs time series analysis on cerebral blood
+ flow (cbf) traces. In the example analysis, <tt>cbf</tt> after common carotid
+ artery occlusion is analyzed in two groups: microglia-depleted and
+ control.</p>
+<p><tt>bloodflow_analysis</tt> performs a Principal Component Analysis on the <tt>cbf
+</tt> traces and compares the first 3 PC scores between control and effect
+ group (in the example: microglia-depleted). The data is plotted in the
+ 3D space of the first 3 PC scores.</p>
+<p><tt>bloodflow_analysis</tt> performs curve fitting on the traces. The initial
+ fast deflections and the late slow drift components are fitted
+ separately with a biexponential and a 3rd order polynomial function,
+ respectively.</p>
+<p><tt>bloodflow_analysis</tt> was optimized for the example data. 'Data
+ preprocessing' code should be customized for other data formats.
+ If automated curve fitting failed, the <tt>cftool</tt> function was used to
+ derive the optimal fits (with lowest error).</p>
+<p>Outputs:</p>
+<p>
+ Figures:
+<ol>
+ <li>avg data by groups with SE</li>
+ <li>PCA scores, 3D plot</li>
+ <li>exp curve fitting for fast changes (first part)</li>
+ <li>polynomial curve fitting for slow changes (second part)</li>
+</ol>
+</p>
+<p><tt>bloodflow_analysis</tt> requires Curve Fitting Toolbox.</p>
+<h2>See Also</h2>
+<p>
+<a href="matlab:doc pca"><tt>pca</tt></a>, <a href="matlab:doc fit"><tt>fit</tt></a>, <a href="matlab:doc cftool"><tt>cftool</tt></a>, <a href="inpaint_nans.html"><tt>inpaint_nans</tt></a>, <a href="smooth.html"><tt>smooth</tt></a>
+</p>
+
+</body>
+</html>
