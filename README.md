@@ -27,5 +27,7 @@ Move the .m files on your MATLAB path. No further installation is needed.
 Please contact us with any questions, bug reports, and general feedback:
 
 Diana Balazsfi and Balazs Hangya
+
 balazsfi.diana@koki.mta.hu
+
 hangya.balazs@koki.mta.hu
